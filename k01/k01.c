@@ -39,7 +39,6 @@ int main(void)
     }
 
 printf("%lf\n",ave);
-printf("%lf\n",ave2);
 printf("%lf\n",var);
 
     if(fclose(fp) == EOF){
@@ -60,5 +59,5 @@ return  ( ( ( nr - 1 ) * ave ) / nr ) + ( val / nr );
 
 double var_online(double val,double var,double ave,double ave2)
 {
-return ave2 - ( ave * ave );
+return ((( nr - 1 ) * ave2 ) / nr + ( val * val ) / nr ) - pow( (( nr - 1 ) * ave ) / nr + val / nr , 2);
 }
