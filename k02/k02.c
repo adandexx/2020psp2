@@ -12,6 +12,12 @@ int main(void)
     char buf[256];
     FILE* fp;
     double L1=1,L2=1;
+    double MU_A = 170.8;
+    double MU_B = 169.7;
+    double SIGMA_A = 5.43;
+    double SIGMA_B = 5.5;
+    double max_val = 1;
+    double min_val = 1;
 
     printf("input the filename of sample:");
     fgets(fname,sizeof(fname),stdin);
@@ -27,10 +33,8 @@ int main(void)
     while(fgets(buf,sizeof(buf),fp) != NULL){
         sscanf(buf,"%lf",&val);
 
-
-    
-
-
+        max_val *= p_stdnorm ((val - MU_A) / SIGMA_A);
+        min_val *= p_stdnorm ((val - MU_B) / SIGMA_B);
 
     }
 
