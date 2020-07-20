@@ -25,5 +25,12 @@ $$
 
 ## ソースコードの説明
 
+## 入出力結果
+
+```
+Likelihood for A：
+Likelihood for B：
+```
+
 ## 修正履歴
 

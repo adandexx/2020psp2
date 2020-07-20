@@ -24,6 +24,13 @@ aa83988848 薗田光太郎
 L36,37
 ソースコード末の p_stdnorm関数を用いて各々の尤度Lを求めています。
 
+## 入出力結果
+
+```
+Likelihood for A：
+Likelihood for B：
+```
+
 ## 修正履歴
 
 [comment #20200702 moto]
