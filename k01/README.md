@@ -65,3 +65,7 @@ population variance (estimated)：
 
 [comment #20200702 moto]
 - OKです。
+
+[comment #20200720 sonoda]
+- 入出力結果をこのファイルの「入出力結果」の項にコピペしてください．
+- あとは大丈夫でしょう．課題1の完了としておきます．
