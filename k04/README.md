@@ -14,28 +14,14 @@ aa83988848 薗田光太郎
 
 
 ## 入出力結果
+ID 45313125のデータを調べた時
 
-例えば，ID 45313125のデータを調べたいとき，
-
-```
-Input the filename of sample height : ../sample/heights.csv
-Input the filename of sample ID : ../sample/IDs.csv
-Which ID's data do you want? : 45313125
----
-ID : 45313125
-gender : Female
-height : 152.4
-```
-
-例えば，ID 45313124のデータを調べたいとき，
-
-```
-Input the filename of sample height : ../sample/heights.csv
-Input the filename of sample ID : ../sample/IDs.csv
-Which ID's data do you want? : 45313124
----
-No data
-```
+input the filename of sample heights:../sample/heights.csv
+input the filename of sample ID:../sample/IDs.csv
+Whici ID's data do you want?: 45313125
+ID :45313125
+gender :Female
+heights :152.40
 
 ## 修正履歴
 
