@@ -25,3 +25,5 @@ heights :152.40
 
 ## 修正履歴
 
+[comment #20200727 moto]
+- OKです。
